@@ -511,7 +511,7 @@ MonoBehaviour:
   laneCount: 3
   laneSpacing: 4
   startLane: 1
-  forwardSpeed: 1
+  forwardSpeed: 2.5
   laneChangeSmoothTime: 0.12
   inputCooldown: 0.12
   swipeDeadzone: 50
