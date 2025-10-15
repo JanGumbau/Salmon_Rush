@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: bf69f5d736d8ccf47989fe0dbb4358da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7960261025606889046
+    second: ENTI-CAT-1024x401_0
+  - first:
+      213: -5454275364568749544
+    second: ENTI-CAT-1024x401_1
+  - first:
+      213: 3619580415670069869
+    second: ENTI-CAT-1024x401_2
+  - first:
+      213: -3429006890857172300
+    second: ENTI-CAT-1024x401_3
+  - first:
+      213: -3284299739912165608
+    second: ENTI-CAT-1024x401_4
+  - first:
+      213: -9190465035491072585
+    second: ENTI-CAT-1024x401_5
+  - first:
+      213: 5141948528711747824
+    second: ENTI-CAT-1024x401_6
+  - first:
+      213: -3249665546806399841
+    second: ENTI-CAT-1024x401_7
+  - first:
+      213: -4859886346117174141
+    second: ENTI-CAT-1024x401_8
+  - first:
+      213: 1345301648443044755
+    second: ENTI-CAT-1024x401_9
+  - first:
+      213: 5564769972768379232
+    second: ENTI-CAT-1024x401_10
+  - first:
+      213: 8310255796743486229
+    second: ENTI-CAT-1024x401_11
+  - first:
+      213: -6276817750033606314
+    second: ENTI-CAT-1024x401_12
+  - first:
+      213: -2467577091227096817
+    second: ENTI-CAT-1024x401_13
+  - first:
+      213: -5117366415752652660
+    second: ENTI-CAT-1024x401_14
+  - first:
+      213: 1189966313241708955
+    second: ENTI-CAT-1024x401_15
+  - first:
+      213: -5414469682671991602
+    second: ENTI-CAT-1024x401_16
+  - first:
+      213: 3735979870228389301
+    second: ENTI-CAT-1024x401_17
+  - first:
+      213: -5712139691908503411
+    second: ENTI-CAT-1024x401_18
+  - first:
+      213: 9123334256232735313
+    second: ENTI-CAT-1024x401_19
+  - first:
+      213: 7389933189748375062
+    second: ENTI-CAT-1024x401_20
+  - first:
+      213: -6262697186102038953
+    second: ENTI-CAT-1024x401_21
+  - first:
+      213: -4282412735100215439
+    second: ENTI-CAT-1024x401_22
+  - first:
+      213: 323880036089980706
+    second: ENTI-CAT-1024x401_23
+  - first:
+      213: -1947670174673410678
+    second: ENTI-CAT-1024x401_24
+  - first:
+      213: -2019736034343930168
+    second: ENTI-CAT-1024x401_25
+  - first:
+      213: -7559570965110463107
+    second: ENTI-CAT-1024x401_26
+  - first:
+      213: -3155503963663072612
+    second: ENTI-CAT-1024x401_27
+  - first:
+      213: 1674535555883205348
+    second: ENTI-CAT-1024x401_28
+  - first:
+      213: 211301279821338796
+    second: ENTI-CAT-1024x401_29
+  - first:
+      213: -4799993193393817166
+    second: ENTI-CAT-1024x401_30
+  - first:
+      213: -6909499693052528756
+    second: ENTI-CAT-1024x401_31
+  - first:
+      213: -4682639927634678823
+    second: ENTI-CAT-1024x401_32
+  - first:
+      213: -7215615320449093827
+    second: ENTI-CAT-1024x401_33
+  - first:
+      213: -8442367098942394683
+    second: ENTI-CAT-1024x401_34
+  - first:
+      213: 653916557181164806
+    second: ENTI-CAT-1024x401_35
+  - first:
+      213: 7150504431443352977
+    second: ENTI-CAT-1024x401_36
+  - first:
+      213: 3383636897257972383
+    second: ENTI-CAT-1024x401_37
+  - first:
+      213: -7615150854466467730
+    second: ENTI-CAT-1024x401_38
+  - first:
+      213: 1344852337338173413
+    second: ENTI-CAT-1024x401_39
+  - first:
+      213: 6677203082357109324
+    second: ENTI-CAT-1024x401_40
+  - first:
+      213: -8777550159710735652
+    second: ENTI-CAT-1024x401_41
+  - first:
+      213: 7022150858031018475
+    second: ENTI-CAT-1024x401_42
+  - first:
+      213: -4220508275439886337
+    second: ENTI-CAT-1024x401_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 356
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa19051c5c8778190800000000000000
+      internalID: -7960261025606889046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 170
+        width: 140
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a27b334758e44b0800000000000000
+      internalID: -5454275364568749544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 170
+        width: 174
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aa9ffe5355b3230800000000000000
+      internalID: 3619580415670069869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 170
+        width: 155
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b277128668b960d0800000000000000
+      internalID: -3429006890857172300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_4
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 328
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817a0aa99c2db62d0800000000000000
+      internalID: -3284299739912165608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_5
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 170
+        width: 53
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b528ee4eb8e47080800000000000000
+      internalID: -9190465035491072585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 84
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8c43391fedb5740800000000000000
+      internalID: 5141948528711747824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 83
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c67c3176ed6e2d0800000000000000
+      internalID: -3249665546806399841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 83
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c2ae2fd173e8cb0800000000000000
+      internalID: -4859886346117174141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_9
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 83
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393f137b8b87ba210800000000000000
+      internalID: 1345301648443044755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 84
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0619e9b8ec80a3d40800000000000000
+      internalID: 5564769972768379232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 83
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bb6851e95f35370800000000000000
+      internalID: 8310255796743486229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 83
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6595169238344e8a0800000000000000
+      internalID: -6276817750033606314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_13
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 83
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09648595b761cdd0800000000000000
+      internalID: -2467577091227096817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_14
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 84
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889c8b9b567bf8b0800000000000000
+      internalID: -5117366415752652660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_15
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 83
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b990473ae0c938010800000000000000
+      internalID: 1189966313241708955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_16
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 84
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4c63db280fbd4b0800000000000000
+      internalID: -5414469682671991602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_17
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 83
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd19fcd5edd8d330800000000000000
+      internalID: 3735979870228389301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_18
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 83
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d886264e6376ab0b0800000000000000
+      internalID: -5712139691908503411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 29
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152a7e52b289c9e70800000000000000
+      internalID: 9123334256232735313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e32d025115e8660800000000000000
+      internalID: 7389933189748375062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 29
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eac86271e6619a0800000000000000
+      internalID: -6262697186102038953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_22
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 29
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f1ebe7e40d194c0800000000000000
+      internalID: -4282412735100215439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_23
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 29
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227ebf44d27ae7400800000000000000
+      internalID: 323880036089980706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 29
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85e7fa9b4c78f4e0800000000000000
+      internalID: -1947670174673410678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_25
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6bfdc17c478f3e0800000000000000
+      internalID: -2019736034343930168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 16
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75eb327242071790800000000000000
+      internalID: -7559570965110463107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_27
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 57
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9286861dd56534d0800000000000000
+      internalID: -3155503963663072612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_28
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 29
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e20e2c47352d3710800000000000000
+      internalID: 1674535555883205348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_29
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8165cf461bee200800000000000000
+      internalID: 211301279821338796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_30
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9f77f3f9ff26db0800000000000000
+      internalID: -4799993193393817166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_31
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 29
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87fee323a68c10a0800000000000000
+      internalID: -6909499693052528756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_32
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 29
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db2646abcbe30fb0800000000000000
+      internalID: -4682639927634678823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_33
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 29
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fe3c4981cfcdb90800000000000000
+      internalID: -7215615320449093827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_34
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cee7146adfa6da80800000000000000
+      internalID: -8442367098942394683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_35
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 29
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d9787e4ad231900800000000000000
+      internalID: 653916557181164806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_36
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 29
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d990935e1bb3360800000000000000
+      internalID: 7150504431443352977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_37
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 29
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9267fda4d715fe20800000000000000
+      internalID: 3383636897257972383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_38
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 29
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68838805ac815690800000000000000
+      internalID: -7615150854466467730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_39
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 57
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e745625310e9a210800000000000000
+      internalID: 1344852337338173413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_40
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 29
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f90973d03aac50800000000000000
+      internalID: 6677203082357109324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_41
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 29
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2b44c92a0ef2680800000000000000
+      internalID: -8777550159710735652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_42
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 29
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1b42c1001b37160800000000000000
+      internalID: 7022150858031018475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ENTI-CAT-1024x401_43
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff1fcea51ebd65c0800000000000000
+      internalID: -4220508275439886337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ENTI-CAT-1024x401_0: -7960261025606889046
+      ENTI-CAT-1024x401_1: -5454275364568749544
+      ENTI-CAT-1024x401_10: 5564769972768379232
+      ENTI-CAT-1024x401_11: 8310255796743486229
+      ENTI-CAT-1024x401_12: -6276817750033606314
+      ENTI-CAT-1024x401_13: -2467577091227096817
+      ENTI-CAT-1024x401_14: -5117366415752652660
+      ENTI-CAT-1024x401_15: 1189966313241708955
+      ENTI-CAT-1024x401_16: -5414469682671991602
+      ENTI-CAT-1024x401_17: 3735979870228389301
+      ENTI-CAT-1024x401_18: -5712139691908503411
+      ENTI-CAT-1024x401_19: 9123334256232735313
+      ENTI-CAT-1024x401_2: 3619580415670069869
+      ENTI-CAT-1024x401_20: 7389933189748375062
+      ENTI-CAT-1024x401_21: -6262697186102038953
+      ENTI-CAT-1024x401_22: -4282412735100215439
+      ENTI-CAT-1024x401_23: 323880036089980706
+      ENTI-CAT-1024x401_24: -1947670174673410678
+      ENTI-CAT-1024x401_25: -2019736034343930168
+      ENTI-CAT-1024x401_26: -7559570965110463107
+      ENTI-CAT-1024x401_27: -3155503963663072612
+      ENTI-CAT-1024x401_28: 1674535555883205348
+      ENTI-CAT-1024x401_29: 211301279821338796
+      ENTI-CAT-1024x401_3: -3429006890857172300
+      ENTI-CAT-1024x401_30: -4799993193393817166
+      ENTI-CAT-1024x401_31: -6909499693052528756
+      ENTI-CAT-1024x401_32: -4682639927634678823
+      ENTI-CAT-1024x401_33: -7215615320449093827
+      ENTI-CAT-1024x401_34: -8442367098942394683
+      ENTI-CAT-1024x401_35: 653916557181164806
+      ENTI-CAT-1024x401_36: 7150504431443352977
+      ENTI-CAT-1024x401_37: 3383636897257972383
+      ENTI-CAT-1024x401_38: -7615150854466467730
+      ENTI-CAT-1024x401_39: 1344852337338173413
+      ENTI-CAT-1024x401_4: -3284299739912165608
+      ENTI-CAT-1024x401_40: 6677203082357109324
+      ENTI-CAT-1024x401_41: -8777550159710735652
+      ENTI-CAT-1024x401_42: 7022150858031018475
+      ENTI-CAT-1024x401_43: -4220508275439886337
+      ENTI-CAT-1024x401_5: -9190465035491072585
+      ENTI-CAT-1024x401_6: 5141948528711747824
+      ENTI-CAT-1024x401_7: -3249665546806399841
+      ENTI-CAT-1024x401_8: -4859886346117174141
+      ENTI-CAT-1024x401_9: 1345301648443044755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
