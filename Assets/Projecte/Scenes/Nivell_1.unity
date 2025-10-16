@@ -561,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidas: 3
   duracionRojo: 1
+  tiempoInvulnerable: 1.5
 --- !u!1 &345371090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,13 +1229,14 @@ GameObject:
   - component: {fileID: 568103413}
   - component: {fileID: 568103412}
   - component: {fileID: 568103411}
+  - component: {fileID: 568103415}
   m_Layer: 0
   m_Name: Aguila1
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &568103411
 Rigidbody2D:
   serializedVersion: 5
@@ -1372,12 +1374,27 @@ Transform:
   m_GameObject: {fileID: 568103410}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.42, y: 32.54, z: 0}
+  m_LocalPosition: {x: 9.1, y: 33.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568103415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568103410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaa20486fa1fd74591c13165b80ed00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duracion: 3
+  alturaMedia: 0.5
+  offsetVertical: 2
 --- !u!1 &570653357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,6 +3496,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duracion: 3
+  alturaMedia: 0.5
+  offsetVertical: 2
+  yActivacion: 5
 --- !u!50 &1245609100
 Rigidbody2D:
   serializedVersion: 5
@@ -3959,7 +3979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &1455686311
 Rigidbody2D:
   serializedVersion: 5
@@ -4097,7 +4117,7 @@ Transform:
   m_GameObject: {fileID: 1455686310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2, y: 1.2, z: 0}
+  m_LocalPosition: {x: -12.41, y: 4.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4116,6 +4136,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duracion: 3
+  alturaMedia: 0.5
+  offsetVertical: 2
+  yActivacion: 13
 --- !u!1 &1715036763
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int vidas = 3;
-    private SpriteRenderer sr;  // SpriteRenderer del jugador
-    public float duracionRojo = 0.02f; // tiempo en rojo
+    private SpriteRenderer sr;           // SpriteRenderer del jugador
+    public float duracionRojo = 0.1f;    // tiempo en rojo
+    public float tiempoInvulnerable = 1.5f; // tiempo sin recibir daño
+    private bool invulnerable = false;   // estado de invulnerabilidad
 
     void Start()
     {
@@ -18,14 +20,18 @@ public class PlayerHealth : MonoBehaviour
         if (collision.CompareTag("Enemigo"))
         {
             PerderVida();
-            StartCoroutine(EfectoRojo());
         }
     }
 
     public void PerderVida()
     {
+        if (invulnerable) return; // si es invulnerable, ignora daño
+
         vidas--;
         Debug.Log("Has perdido una vida. Vidas restantes: " + vidas);
+
+        StartCoroutine(EfectoRojo());
+        StartCoroutine(InvulnerabilidadTemporal());
 
         if (vidas <= 0)
         {
@@ -41,8 +47,27 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator EfectoRojo()
     {
-        sr.color = Color.red;       // cambia a rojo
-        yield return new WaitForSeconds(duracionRojo); // espera 1 segundo
-        sr.color = Color.white;     // vuelve al color normal
+        sr.color = Color.red;
+        yield return new WaitForSeconds(duracionRojo);
+        sr.color = Color.white;
+    }
+
+    IEnumerator InvulnerabilidadTemporal()
+    {
+        invulnerable = true;
+
+        // Parpadeo mientras es invulnerable
+        float tiempo = 0f;
+        while (tiempo < tiempoInvulnerable)
+        {
+            sr.enabled = false; // desaparece
+            yield return new WaitForSeconds(0.1f);
+            sr.enabled = true; // reaparece
+            yield return new WaitForSeconds(0.1f);
+            tiempo += 0.2f;
+        }
+
+        invulnerable = false;
+        sr.enabled = true;
     }
 }

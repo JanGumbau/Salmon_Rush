@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AguilaMovimiento : MonoBehaviour
+public class AguilaMovimientoReves : MonoBehaviour
 {
     [Header("Duración total de la trayectoria (segundos)")]
     public float duracion = 3f;
@@ -11,28 +11,20 @@ public class AguilaMovimiento : MonoBehaviour
     [Header("Desfase vertical respecto al borde superior (en unidades del mundo)")]
     public float offsetVertical = 2f;
 
-    [Header("Posición vertical de la cámara para activar movimiento")]
-    public float yActivacion = 5f;
-
     private Camera cam;
     private Vector3 puntoIzquierda;
     private Vector3 puntoMedio;
     private Vector3 puntoDerecha;
     private float t = 0f;
     private bool movimientoTerminado = false;
-    private float tiempoDesaparicion = 0f;
+    private float tiempoDesaparicion = 0f; // tiempo en segundos para desaparecer
     private float tiempoDesdeFin = 0f;
-
-    private SpriteRenderer sr;
 
     void Start()
     {
         cam = Camera.main;
-        sr = GetComponent<SpriteRenderer>();
-        sr.enabled = false; // 🔹 empieza invisible
-
         CalcularPuntosV();
-        transform.position = puntoIzquierda;
+        transform.position = puntoDerecha; // 👈 empieza en la derecha
     }
 
     void Update()
@@ -47,30 +39,25 @@ public class AguilaMovimiento : MonoBehaviour
             return;
         }
 
-        // Solo mover y mostrar el águila si la cámara superó la altura de activación
-        if (cam.transform.position.y >= yActivacion)
+        CalcularPuntosV(); // recalcular si la cámara se mueve
+        t += Time.deltaTime / duracion;
+
+        if (t < 0.5f)
         {
-            if (!sr.enabled) sr.enabled = true; // 🔹 se hace visible al empezar a moverse
-
-            CalcularPuntosV(); // recalcula si la cámara se mueve
-
-            t += Time.deltaTime / duracion;
-
-            if (t < 0.5f)
-            {
-                float tLerp = t / 0.5f;
-                transform.position = Vector3.Lerp(puntoIzquierda, puntoMedio, tLerp);
-            }
-            else if (t < 1f)
-            {
-                float tLerp = (t - 0.5f) / 0.5f;
-                transform.position = Vector3.Lerp(puntoMedio, puntoDerecha, tLerp);
-            }
-            else
-            {
-                transform.position = puntoDerecha;
-                movimientoTerminado = true;
-            }
+            // Baja: derecha -> medio
+            float tLerp = t / 0.5f;
+            transform.position = Vector3.Lerp(puntoDerecha, puntoMedio, tLerp);
+        }
+        else if (t < 1f)
+        {
+            // Sube: medio -> izquierda
+            float tLerp = (t - 0.5f) / 0.5f;
+            transform.position = Vector3.Lerp(puntoMedio, puntoIzquierda, tLerp);
+        }
+        else
+        {
+            transform.position = puntoIzquierda;
+            movimientoTerminado = true;
         }
     }
 
