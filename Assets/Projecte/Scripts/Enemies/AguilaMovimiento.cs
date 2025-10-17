@@ -29,7 +29,7 @@ public class AguilaMovimiento : MonoBehaviour
     {
         cam = Camera.main;
         sr = GetComponent<SpriteRenderer>();
-        sr.enabled = false; // 🔹 empieza invisible
+        sr.enabled = false;
 
         CalcularPuntosV();
         transform.position = puntoIzquierda;
@@ -47,12 +47,12 @@ public class AguilaMovimiento : MonoBehaviour
             return;
         }
 
-        // Solo mover y mostrar el águila si la cámara superó la altura de activación
+       
         if (cam.transform.position.y >= yActivacion)
         {
-            if (!sr.enabled) sr.enabled = true; // 🔹 se hace visible al empezar a moverse
+            if (!sr.enabled) sr.enabled = true;
 
-            CalcularPuntosV(); // recalcula si la cámara se mueve
+            CalcularPuntosV(); 
 
             t += Time.deltaTime / duracion;
 

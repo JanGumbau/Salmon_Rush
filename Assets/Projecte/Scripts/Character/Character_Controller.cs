@@ -15,17 +15,15 @@ public class Character_Controller : MonoBehaviour
     [Header("Swipe (móvil)")]
     public float swipeDeadzone = 50f;
 
-    // estado interno
     private int currentLane;
     private float centerX;
     private float xVelocity = 0f;
     private float inputTimer = 0f;
 
-    // para swipe
+     
     private Vector2 touchStart;
     private bool touchStarted = false;
 
-    // --- NUEVO: control de movimiento ---
     private bool canMove = true;
 
     void Start()
@@ -38,7 +36,7 @@ public class Character_Controller : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return; // Si no puede moverse, no hacemos nada
+        if (!canMove) return; 
 
         if (inputTimer > 0f) inputTimer -= Time.deltaTime;
 
@@ -50,7 +48,7 @@ public class Character_Controller : MonoBehaviour
 
         HandleTouchInput();
 
-        // --- Movimiento ---
+      
         float newY = transform.position.y + forwardSpeed * Time.deltaTime;
         float targetX = GetLaneX(currentLane);
         float newX = Mathf.SmoothDamp(transform.position.x, targetX, ref xVelocity, laneChangeSmoothTime);
@@ -107,7 +105,7 @@ public class Character_Controller : MonoBehaviour
         xVelocity = 0f;
     }
 
-    // --- NUEVO: función para detener al jugador ---
+    
     public void StopMovement()
     {
         canMove = false;
