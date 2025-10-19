@@ -32,7 +32,7 @@ public class CollectionDisplayUI : MonoBehaviour
             TMP_Text textComponent = display.uiText;
 
             // 1. Comprova si la paraula està completa
-            bool isComplete = LetterManager.Instance.IsWordCompleted(wordId);
+            //bool isComplete = LetterManager.Instance.IsWordCompleted(wordId);
 
             // 2. Troba la paraula completa (necessitem la longitud o la paraula)
             string fullWord = "";
@@ -57,7 +57,7 @@ public class CollectionDisplayUI : MonoBehaviour
 
             string displayString = "";
 
-            if (isComplete)
+           // if (isComplete)
             {
                 // Si està completa, es veu la paraula sencera
                 for (int i = 0; i < wordLength; i++)
@@ -66,7 +66,7 @@ public class CollectionDisplayUI : MonoBehaviour
                     displayString += Spacing;
                 }
             }
-            else
+           // else
             {
                 // Si no està completa, es veuen les siluetes (?????)
                 for (int i = 0; i < wordLength; i++)
