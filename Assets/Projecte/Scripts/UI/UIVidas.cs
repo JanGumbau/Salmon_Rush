@@ -3,14 +3,14 @@ using UnityEngine.UI;
 
 public class UIVidas : MonoBehaviour
 {
-    public PlayerHealth playerHealth;     // referencia al script del jugador
-    public Image[] corazones;             // array con las imágenes de corazones
+    public PlayerHealth playerHealth;    
+    public Image[] corazones;             
     public Sprite corazonLleno;
     public Sprite corazonVacio;
 
     void Update()
     {
-        // Actualiza las imágenes según las vidas
+       
         for (int i = 0; i < corazones.Length; i++)
         {
             if (i < playerHealth.vidas)

@@ -7,9 +7,9 @@ public class LetterPopupUI : MonoBehaviour
     public static LetterPopupUI Instance;
 
     [Header("UI")]
-    public GameObject popupObject;       // El objeto (text) que aparece arriba
-    public TMP_Text popupText;           // Texto que mostrará la letra
-    public float showTime = 1f;          // Tiempo visible
+    public GameObject popupObject;       
+    public TMP_Text popupText;           
+    public float showTime = 1f;          
     public Vector3 startPos = new Vector3(0, -80, 0);
     public Vector3 endPos = new Vector3(0, -30, 0);
     public AnimationCurve fadeCurve = AnimationCurve.EaseInOut(0, 1, 1, 0);
@@ -30,10 +30,8 @@ public class LetterPopupUI : MonoBehaviour
         timer += Time.deltaTime;
         float t = timer / showTime;
 
-        // movimiento vertical suave
         popupObject.transform.localPosition = Vector3.Lerp(startPos, endPos, t);
 
-        // fade-out
         float alpha = fadeCurve.Evaluate(t);
         popupText.alpha = alpha;
 

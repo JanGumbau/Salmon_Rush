@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int vidas = 3;
-    private SpriteRenderer sr;           // SpriteRenderer del jugador
-    public float duracionRojo = 0.1f;    // tiempo en rojo
-    public float tiempoInvulnerable = 1.5f; // tiempo sin recibir daño
-    private bool invulnerable = false;   // estado de invulnerabilidad
+    private SpriteRenderer sr;           
+    public float duracionRojo = 0.1f;    
+    public float tiempoInvulnerable = 1.5f; 
+    private bool invulnerable = false;   
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void PerderVida()
     {
-        if (invulnerable) return; // si es invulnerable, ignora daño
+        if (invulnerable) return; 
 
         vidas--;
         Debug.Log("Has perdido una vida. Vidas restantes: " + vidas);
@@ -56,13 +56,13 @@ public class PlayerHealth : MonoBehaviour
     {
         invulnerable = true;
 
-        // Parpadeo mientras es invulnerable
+        
         float tiempo = 0f;
         while (tiempo < tiempoInvulnerable)
         {
-            sr.enabled = false; // desaparece
+            sr.enabled = false;
             yield return new WaitForSeconds(0.1f);
-            sr.enabled = true; // reaparece
+            sr.enabled = true; 
             yield return new WaitForSeconds(0.1f);
             tiempo += 0.2f;
         }

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 5b9008358ec18cd448c4fc2f14609585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3593385485021795634
+    second: Salmo_01_swimming_sheet_0
+  - first:
+      213: 8965132492545879658
+    second: Salmo_01_swimming_sheet_1
+  - first:
+      213: 6819262366209477164
+    second: Salmo_01_swimming_sheet_2
+  - first:
+      213: 8015437088353260122
+    second: Salmo_01_swimming_sheet_3
+  - first:
+      213: 6931369786579537959
+    second: Salmo_01_swimming_sheet_4
+  - first:
+      213: -9007199656111242368
+    second: Salmo_01_swimming_sheet_5
+  - first:
+      213: 1162565822607773398
+    second: Salmo_01_swimming_sheet_6
+  - first:
+      213: 3521021932301578034
+    second: Salmo_01_swimming_sheet_7
+  - first:
+      213: -7476801587993401817
+    second: Salmo_01_swimming_sheet_8
+  - first:
+      213: -9078789477480618644
+    second: Salmo_01_swimming_sheet_9
+  - first:
+      213: 5535616987750451761
+    second: Salmo_01_swimming_sheet_10
+  - first:
+      213: 8969431336978340076
+    second: Salmo_01_swimming_sheet_11
+  - first:
+      213: 4642323236736875688
+    second: Salmo_01_swimming_sheet_12
+  - first:
+      213: 5286577214533154645
+    second: Salmo_01_swimming_sheet_13
+  - first:
+      213: -4822459523957485367
+    second: Salmo_01_swimming_sheet_14
+  - first:
+      213: 1386059225646962204
+    second: Salmo_01_swimming_sheet_15
+  - first:
+      213: 715777681119591391
+    second: Salmo_01_swimming_sheet_16
+  - first:
+      213: 7175324146887259025
+    second: Salmo_01_swimming_sheet_17
+  - first:
+      213: 6751881609218957495
+    second: Salmo_01_swimming_sheet_18
+  - first:
+      213: -8052037068941881596
+    second: Salmo_01_swimming_sheet_19
+  - first:
+      213: -6535795188506539554
+    second: Salmo_01_swimming_sheet_20
+  - first:
+      213: -7324985367510760822
+    second: Salmo_01_swimming_sheet_21
+  - first:
+      213: -3519611233306123544
+    second: Salmo_01_swimming_sheet_22
+  - first:
+      213: 1911238762571434795
+    second: Salmo_01_swimming_sheet_23
+  - first:
+      213: 7755522094304421476
+    second: Salmo_01_swimming_sheet_24
+  - first:
+      213: -5850450801074395204
+    second: Salmo_01_swimming_sheet_25
+  - first:
+      213: -1832232063601608071
+    second: Salmo_01_swimming_sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 24
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235d4cf5f054ed130800000000000000
+      internalID: 3593385485021795634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 13
+        width: 25
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e628ea08c8a6c70800000000000000
+      internalID: 8965132492545879658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 13
+        width: 24
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a0b18fdf2e2ae50800000000000000
+      internalID: 6819262366209477164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 25
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5299c2709d8c3f60800000000000000
+      internalID: 8015437088353260122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 12
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d2ffc81c213060800000000000000
+      internalID: 6931369786579537959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 12
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083087c82affff280800000000000000
+      internalID: -9007199656111242368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 12
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6decb84c473422010800000000000000
+      internalID: 1162565822607773398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 12
+        width: 26
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fe131dace2dd030800000000000000
+      internalID: 3521021932301578034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 12
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726a39bc1901d3890800000000000000
+      internalID: -7476801587993401817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65a63c5219a10280800000000000000
+      internalID: -9078789477480618644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13acb77425672dc40800000000000000
+      internalID: 5535616987750451761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 11
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d9d56742d97c70800000000000000
+      internalID: 8969431336978340076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 11
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac3e324368dc6040800000000000000
+      internalID: 4642323236736875688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 11
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5573ce597f1bd5940800000000000000
+      internalID: 5286577214533154645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 11
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c090da0d9e231db0800000000000000
+      internalID: -4822459523957485367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c161756a5854c3310800000000000000
+      internalID: 1386059225646962204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb39453204fee900800000000000000
+      internalID: 715777681119591391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1937f7b8b4fd39360800000000000000
+      internalID: 7175324146887259025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b02df2fc8083bd50800000000000000
+      internalID: 6751881609218957495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f017382fa614090800000000000000
+      internalID: -8052037068941881596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 12
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed94c5877e03c45a0800000000000000
+      internalID: -6535795188506539554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 12
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8246902e9c685a90800000000000000
+      internalID: -7324985367510760822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 12
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e260532b34d72fc0800000000000000
+      internalID: -3519611233306123544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 11
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b07044785168a10800000000000000
+      internalID: 1911238762571434795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 10
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46665b6114621ab60800000000000000
+      internalID: 7755522094304421476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 9
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7af025ef50fcea0800000000000000
+      internalID: -5850450801074395204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmo_01_swimming_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 9
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97af1fe45aa9296e0800000000000000
+      internalID: -1832232063601608071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Salmo_01_swimming_sheet_0: 3593385485021795634
+      Salmo_01_swimming_sheet_1: 8965132492545879658
+      Salmo_01_swimming_sheet_10: 5535616987750451761
+      Salmo_01_swimming_sheet_11: 8969431336978340076
+      Salmo_01_swimming_sheet_12: 4642323236736875688
+      Salmo_01_swimming_sheet_13: 5286577214533154645
+      Salmo_01_swimming_sheet_14: -4822459523957485367
+      Salmo_01_swimming_sheet_15: 1386059225646962204
+      Salmo_01_swimming_sheet_16: 715777681119591391
+      Salmo_01_swimming_sheet_17: 7175324146887259025
+      Salmo_01_swimming_sheet_18: 6751881609218957495
+      Salmo_01_swimming_sheet_19: -8052037068941881596
+      Salmo_01_swimming_sheet_2: 6819262366209477164
+      Salmo_01_swimming_sheet_20: -6535795188506539554
+      Salmo_01_swimming_sheet_21: -7324985367510760822
+      Salmo_01_swimming_sheet_22: -3519611233306123544
+      Salmo_01_swimming_sheet_23: 1911238762571434795
+      Salmo_01_swimming_sheet_24: 7755522094304421476
+      Salmo_01_swimming_sheet_25: -5850450801074395204
+      Salmo_01_swimming_sheet_26: -1832232063601608071
+      Salmo_01_swimming_sheet_3: 8015437088353260122
+      Salmo_01_swimming_sheet_4: 6931369786579537959
+      Salmo_01_swimming_sheet_5: -9007199656111242368
+      Salmo_01_swimming_sheet_6: 1162565822607773398
+      Salmo_01_swimming_sheet_7: 3521021932301578034
+      Salmo_01_swimming_sheet_8: -7476801587993401817
+      Salmo_01_swimming_sheet_9: -9078789477480618644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
