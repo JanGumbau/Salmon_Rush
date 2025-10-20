@@ -13,18 +13,19 @@ public class PlayerDetector : MonoBehaviour
         if (GetComponent<Rigidbody2D>() == null)
         {
             var rb = gameObject.AddComponent<Rigidbody2D>();
-            rb.isKinematic = true;
+           
+            rb.bodyType = RigidbodyType2D.Kinematic;
             rb.gravityScale = 0f;
         }
 
         if (enemyAttack == null)
             enemyAttack = GetComponentInParent<BearAttack>();
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag(playerTag)) return;
         if (enemyAttack != null)
             enemyAttack.TriggerAttack();
     }
-
-    }
+}
