@@ -1,6 +1,7 @@
+// En CollectionDisplayUI.cs
+
 using UnityEngine;
 using TMPro;
-using UnityEngine.PlayerLoop;
 
 public class CollectionDisplayUI : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class CollectionDisplayUI : MonoBehaviour
     public char hiddenChar = '_';
     private const string Spacing = " ";
 
+   
     void OnEnable()
     {
         UpdateAllWordDisplays();
@@ -22,64 +24,54 @@ public class CollectionDisplayUI : MonoBehaviour
 
     void UpdateAllWordDisplays()
     {
+   
         if (LetterManager.Instance == null)
         {
+            Debug.LogWarning("CollectionDisplayUI: No se encuentra LetterManager.Instance.");
             return;
         }
+
         foreach (var display in displayWords)
         {
             string wordId = display.wordId;
             TMP_Text textComponent = display.uiText;
 
-            // 1. Comprova si la paraula està completa
-            //bool isComplete = LetterManager.Instance.IsWordCompleted(wordId);
-
-            // 2. Troba la paraula completa (necessitem la longitud o la paraula)
             string fullWord = "";
-            int wordLength = 0;
-            
-            // Cerca la paraula completa a LetterManager
+            bool[] collectedLetters = null;
+
+           
             foreach (var w in LetterManager.Instance.words)
             {
                 if (w.wordId == wordId)
                 {
                     fullWord = w.fullWord.ToUpper();
-                    wordLength = fullWord.Length;
+                    collectedLetters = w.collectedLetters;
                     break;
                 }
             }
 
-            if (wordLength == 0)
+            
+            if (string.IsNullOrEmpty(fullWord) || collectedLetters == null)
             {
                 textComponent.text = "ERROR: ID no válido";
                 continue;
             }
 
+           
             string displayString = "";
+            for (int i = 0; i < fullWord.Length; i++)
+            {
+               
+                if (i < collectedLetters.Length && collectedLetters[i])
+                    displayString += fullWord[i];   
+                else
+                    displayString += hiddenChar;    
 
-           // if (isComplete)
-            {
-                // Si està completa, es veu la paraula sencera
-                for (int i = 0; i < wordLength; i++)
-                {
-                    displayString += fullWord[i];
-                    displayString += Spacing;
-                }
-            }
-           // else
-            {
-                // Si no està completa, es veuen les siluetes (?????)
-                for (int i = 0; i < wordLength; i++)
-                {
-                    displayString += hiddenChar;
-                    displayString += Spacing;
-                }
-                // Opcional: mostrar les lletres recollides fins ara 
-                // Aquesta versió mostra només la silueta si NO està completada
+                displayString += Spacing;           
             }
 
-            textComponent.text = displayString;
+            
+            textComponent.text = displayString.TrimEnd(); 
         }
     }
-    
 }

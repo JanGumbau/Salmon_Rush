@@ -15,14 +15,34 @@ public class LetterManager : MonoBehaviour
     public WordData[] words;
     public UIManager uiManager;
 
+  
+
     void Awake()
     {
-        Instance = this;
-
-        foreach (var w in words)
+       
+        if (Instance == null)
         {
-            w.collectedLetters = new bool[w.fullWord.Length];
+            
+            Instance = this;
+           
+            DontDestroyOnLoad(gameObject);
+
+           
+            foreach (var w in words)
+            {
+              
+                if (w.collectedLetters == null || w.collectedLetters.Length != w.fullWord.Length)
+                {
+                    w.collectedLetters = new bool[w.fullWord.Length];
+                }
+            }
         }
+        else
+        {
+           
+            Destroy(gameObject);
+        }
+        
     }
 
     public void RegisterCollectedLetter(string wordId, int index, char letter)
@@ -32,15 +52,19 @@ public class LetterManager : MonoBehaviour
             if (w.wordId == wordId)
             {
                 w.collectedLetters[index] = true;
-                // actualizar UI
+               
                 uiManager.UpdateWordUI(wordId, w.collectedLetters, w.fullWord);
 
-                // aquí puedes añadir lógica de recompensa si palabra completa
+               
                 bool complete = true;
                 foreach (bool b in w.collectedLetters) if (!b) complete = false;
+                // En LetterManager.cs, dentro de RegisterCollectedLetter()
+
                 if (complete)
                 {
                     Debug.Log("¡Palabra completada! " + w.fullWord);
+                   
+                    RewardManager.Instance?.GiveWordReward(w.wordId);
                 }
                 break;
             }

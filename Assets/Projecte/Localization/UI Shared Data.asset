@@ -51,6 +51,14 @@ MonoBehaviour:
     m_Key: SiguienteNivel
     m_Metadata:
       m_Items: []
+  - m_Id: 237181524545536
+    m_Key: Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237263049232384
+    m_Key: texto info
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -54,6 +54,21 @@ MonoBehaviour:
     m_Localized: Siguiente Nivel
     m_Metadata:
       m_Items: []
+  - m_Id: 237181524545536
+    m_Localized: "Salm\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237263049232384
+    m_Localized: 'El                     nace en aguas dulces, migran al                    
+      y vuelven a las aguas dulces para procrear.
+
+
+      Se les atribuye la capacidad
+      de volver al mismo sitio donde nacieron para reproducirse y los estudios recientes
+      muestran que al menos un 90% de los salmones que remontan una corriente nacieron
+      en ella.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

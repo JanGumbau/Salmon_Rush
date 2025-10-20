@@ -54,6 +54,17 @@ MonoBehaviour:
     m_Localized: "Seg\xFCent Nivell"
     m_Metadata:
       m_Items: []
+  - m_Id: 237181524545536
+    m_Localized: "Salm\xF3"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237263049232384
+    m_Localized: "El                     neix en aig\xFCes dolces, migren a                      
+      i tornen a les aig\xFCes dolces per procrear.\r\n\r\nSe'ls atribueix la capacitat
+      de tornar al mateix lloc on van n\xE9ixer per reproduir-se i els estudis recents
+      mostren que almenys un 90% dels salmons que remunten un corrent hi van n\xE9ixer."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
