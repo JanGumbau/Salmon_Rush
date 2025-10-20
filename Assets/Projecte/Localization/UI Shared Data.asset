@@ -39,6 +39,18 @@ MonoBehaviour:
     m_Key: PLAY
     m_Metadata:
       m_Items: []
+  - m_Id: 223303264669696
+    m_Key: GAMEPAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223449004150784
+    m_Key: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223600837955584
+    m_Key: SiguienteNivel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

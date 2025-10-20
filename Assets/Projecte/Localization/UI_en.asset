@@ -42,6 +42,18 @@ MonoBehaviour:
     m_Localized: PLAY
     m_Metadata:
       m_Items: []
+  - m_Id: 223303264669696
+    m_Localized: Game Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223449004150784
+    m_Localized: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223600837955584
+    m_Localized: Next Level
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

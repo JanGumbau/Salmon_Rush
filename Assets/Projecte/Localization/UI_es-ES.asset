@@ -42,6 +42,18 @@ MonoBehaviour:
     m_Localized: JUGAR
     m_Metadata:
       m_Items: []
+  - m_Id: 223303264669696
+    m_Localized: Juego Pausado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223449004150784
+    m_Localized: Reintentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223600837955584
+    m_Localized: Siguiente Nivel
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
