@@ -42,6 +42,33 @@ MonoBehaviour:
     m_Localized: PLAY
     m_Metadata:
       m_Items: []
+  - m_Id: 223303264669696
+    m_Localized: Game Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223449004150784
+    m_Localized: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223600837955584
+    m_Localized: Next Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237181524545536
+    m_Localized: Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237263049232384
+    m_Localized: 'They                     are born in freshwater, migrate to the                     
+      , and return to freshwater to breed.
+
+
+
+      They are credited with the ability
+      to return to the same place where they were born to reproduce, and recent studies
+      show that at least 90% of salmon that swim upstream were born there.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
