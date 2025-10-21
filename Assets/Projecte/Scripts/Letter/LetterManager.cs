@@ -35,12 +35,12 @@ public class LetterManager : MonoBehaviour
                 // actualizar UI
                 uiManager.UpdateWordUI(wordId, w.collectedLetters, w.fullWord);
 
-                // aquí puedes añadir lógica de recompensa si palabra completa
+                // aquÃ­ puedes aÃ±adir lÃ³gica de recompensa si palabra completa
                 bool complete = true;
                 foreach (bool b in w.collectedLetters) if (!b) complete = false;
                 if (complete)
                 {
-                    Debug.Log("¡Palabra completada! " + w.fullWord);
+                    Debug.Log("Â¡Palabra completada! " + w.fullWord);
                 }
                 break;
             }
