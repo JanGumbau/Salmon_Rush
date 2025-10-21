@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Character_Controller : MonoBehaviour
 {
@@ -12,15 +12,23 @@ public class Character_Controller : MonoBehaviour
     public float laneChangeSmoothTime = 0.12f;
     public float inputCooldown = 0.12f;
 
-    [Header("Swipe (m�vil)")]
+    [Header("Swipe (móvil)")]
     public float swipeDeadzone = 50f;
+
+    // 🆕 Sección para el SFX
+    // ----------------------------------------------------
+    [Header("SFX")]
+    public AudioSource sfxOutput; // El componente AudioSource para reproducir
+    public AudioClip laneChangeSFX; // El clip de sonido para el cambio de carril
+                                    // ----------------------------------------------------
+
 
     private int currentLane;
     private float centerX;
     private float xVelocity = 0f;
     private float inputTimer = 0f;
 
-     
+
     private Vector2 touchStart;
     private bool touchStarted = false;
 
@@ -32,11 +40,21 @@ public class Character_Controller : MonoBehaviour
         currentLane = Mathf.Clamp(startLane, 0, laneCount - 1);
         float initX = GetLaneX(currentLane);
         transform.position = new Vector3(initX, transform.position.y, transform.position.z);
+
+        // 🆕 Inicializar el AudioSource si está vacío y el componente existe
+        if (sfxOutput == null)
+        {
+            sfxOutput = GetComponent<AudioSource>();
+            if (sfxOutput == null)
+            {
+                Debug.LogWarning("No se encontró un AudioSource. Se recomienda añadir uno al GameObject del personaje para los SFX.");
+            }
+        }
     }
 
     void Update()
     {
-        if (!canMove) return; 
+        if (!canMove) return;
 
         if (inputTimer > 0f) inputTimer -= Time.deltaTime;
 
@@ -48,7 +66,7 @@ public class Character_Controller : MonoBehaviour
 
         HandleTouchInput();
 
-      
+
         float newY = transform.position.y + forwardSpeed * Time.deltaTime;
         float targetX = GetLaneX(currentLane);
         float newX = Mathf.SmoothDamp(transform.position.x, targetX, ref xVelocity, laneChangeSmoothTime);
@@ -63,11 +81,26 @@ public class Character_Controller : MonoBehaviour
 
     private void TryChangeLane(int direction)
     {
+        int oldLane = currentLane; // Guardamos el carril actual antes de cambiar
         int newLane = Mathf.Clamp(currentLane + direction, 0, laneCount - 1);
-        if (newLane == currentLane) return;
+
+        if (newLane == currentLane) return; // Si no cambia, salimos
 
         currentLane = newLane;
         inputTimer = inputCooldown;
+
+        // 🆕 Llama a la función de reproducción de sonido
+        PlayLaneChangeSFX();
+    }
+
+    // 🆕 Nuevo método para reproducir el sonido
+    private void PlayLaneChangeSFX()
+    {
+        // Solo reproducimos si tenemos un AudioSource y un AudioClip
+        if (sfxOutput != null && laneChangeSFX != null)
+        {
+            sfxOutput.PlayOneShot(laneChangeSFX);
+        }
     }
 
     private void HandleTouchInput()
@@ -105,7 +138,7 @@ public class Character_Controller : MonoBehaviour
         xVelocity = 0f;
     }
 
-    
+
     public void StopMovement()
     {
         canMove = false;
