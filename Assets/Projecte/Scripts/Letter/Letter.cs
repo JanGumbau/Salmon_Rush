@@ -2,27 +2,49 @@
 
 public class Letter : MonoBehaviour
 {
-    // Configura en el prefab
-    public char letterChar = 'S';      // la letra (A, B, C...)
-    public string wordId = "EVENT1";   // identificador de conjunto/palabra
-    public int letterIndex = 0;        // índice opcional (0..N-1)
 
-    // Sonido / animación opcionales
+    public char letterChar = 'S';
+    public string wordId = "EVENT1";
+    public int letterIndex = 0;
+
+    public SpriteRenderer spriteRenderer;
+    public Color collectedColor = Color.gray;
+    public Color uncollectedColor = Color.white;
+
+
     public AudioClip collectSfx;
-    public Animator animator; // opcional
+    public Animator animator;
 
     private bool collected = false;
 
     void Start()
     {
-        // Ajustes iniciales si necesitas (por ejemplo sprite desde letterChar)
+        if (LetterManager.Instance != null)
+        {
+            collected = LetterManager.Instance.IsLetterCollected(wordId, letterIndex);
+        }
+
+
+        if (spriteRenderer != null)
+        {
+            if (collected)
+            {
+                spriteRenderer.color = collectedColor;
+
+            }
+            else
+            {
+                spriteRenderer.color = uncollectedColor;
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         if (collected) return;
 
-        // Determina colisión con el jugador
+
         if (other.CompareTag("Player"))
         {
             Collect();
@@ -34,17 +56,21 @@ public class Letter : MonoBehaviour
         if (collected) return;
         collected = true;
 
+
         if (animator != null) animator.SetTrigger("Collect");
         if (collectSfx != null) AudioSource.PlayClipAtPoint(collectSfx, Camera.main.transform.position);
 
-        // 👉 Mostrar popup arriba
+
         LetterPopupUI.Instance?.ShowLetter(letterChar);
 
-        // Notificar al gestor central
         LetterManager.Instance?.RegisterCollectedLetter(wordId, letterIndex, letterChar);
+
+
+        var collider = GetComponent<Collider2D>();
+        if (collider != null) collider.enabled = false;
+
+        if (spriteRenderer != null) spriteRenderer.color = collectedColor;
 
         Destroy(gameObject, 0.1f);
     }
-
 }
-
