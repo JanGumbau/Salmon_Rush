@@ -58,15 +58,8 @@ MonoBehaviour:
     m_Localized: Salmon
     m_Metadata:
       m_Items: []
-  - m_Id: 237263049232384
-    m_Localized: 'They                     are born in freshwater, migrate to the                     
-      , and return to freshwater to breed.
-
-
-
-      They are credited with the ability
-      to return to the same place where they were born to reproduce, and recent studies
-      show that at least 90% of salmon that swim upstream were born there.'
+  - m_Id: 2255580273016832
+    m_Localized: MISSIONS
     m_Metadata:
       m_Items: []
   references:
