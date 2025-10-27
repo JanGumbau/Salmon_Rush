@@ -1692,7 +1692,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Y",
     "m_StageCapability": 3,
-    "m_Value": -0.10000000149011612,
+    "m_Value": -0.30000001192092898,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Y"
@@ -2757,7 +2757,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Y",
     "m_StageCapability": 3,
-    "m_Value": -0.029999999329447748,
+    "m_Value": -0.30000001192092898,
     "m_DefaultValue": 0.0,
     "m_Labels": [
         "Y"
