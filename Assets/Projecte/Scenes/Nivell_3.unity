@@ -422,7 +422,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44247413}
   m_CullTransparentMesh: 1
---- !u!213 &81089897
+--- !u!213 &75428103
 Sprite:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -449,7 +449,7 @@ Sprite:
   m_SpriteAtlas: {fileID: 0}
   m_RD:
     serializedVersion: 3
-    texture: {fileID: 1747751511}
+    texture: {fileID: 1204226807}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -540,7 +540,7 @@ Sprite:
     downscaleMultiplier: 1
   m_AtlasRD:
     serializedVersion: 3
-    texture: {fileID: 1747751511}
+    texture: {fileID: 1204226807}
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes:
@@ -1559,7 +1559,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.18157347, b: 0, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -1755,7 +1755,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -2140,7 +2140,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 0
   spriteRenderer: {fileID: 345371094}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 0
   spriteRenderer: {fileID: 467836590}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3598,7 +3598,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 1
   spriteRenderer: {fileID: 627738353}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3975,7 +3975,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 4
   spriteRenderer: {fileID: 659677428}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4228,7 +4228,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 3
   spriteRenderer: {fileID: 727926195}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4583,7 +4583,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -5360,7 +5360,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 2
   spriteRenderer: {fileID: 913292312}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5535,7 +5535,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 2
   spriteRenderer: {fileID: 919207529}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7267,6 +7267,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!28 &1204226807
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 4
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 4
+  _typelessdata: ffffffff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1245044314
 GameObject:
   m_ObjectHideFlags: 0
@@ -7343,7 +7389,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -8762,7 +8808,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 1
   spriteRenderer: {fileID: 1495100034}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8977,7 +9023,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 0.8584906, g: 0.1906087, b: 0.0040494935, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -9064,7 +9110,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -9270,7 +9316,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 3
   spriteRenderer: {fileID: 1539624549}
-  uncollectedSprite: {fileID: 0}
+  uncollectedSprite: {fileID: 21300000, guid: 8e45fb41c6b3a234692dd008acbdcc20, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9912,52 +9958,6 @@ MonoBehaviour:
   showOnlyWhenActive: 1
   hitboxColor: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   hitboxSortingOrder: 50
---- !u!28 &1747751511
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1
-  m_Height: 1
-  m_CompleteImageSize: 4
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 4
-  _typelessdata: ffffffff
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1748201950
 GameObject:
   m_ObjectHideFlags: 0
@@ -12661,7 +12661,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 81089897}
+  m_Sprite: {fileID: 75428103}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
