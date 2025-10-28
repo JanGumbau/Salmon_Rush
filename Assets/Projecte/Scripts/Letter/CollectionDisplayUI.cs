@@ -16,7 +16,7 @@ public class CollectionDisplayUI : MonoBehaviour
     public char hiddenChar = '_';
     private const string Spacing = " ";
 
-   
+
     void OnEnable()
     {
         UpdateAllWordDisplays();
@@ -24,7 +24,7 @@ public class CollectionDisplayUI : MonoBehaviour
 
     void UpdateAllWordDisplays()
     {
-   
+
         if (LetterManager.Instance == null)
         {
             Debug.LogWarning("CollectionDisplayUI: No se encuentra LetterManager.Instance.");
@@ -39,7 +39,7 @@ public class CollectionDisplayUI : MonoBehaviour
             string fullWord = "";
             bool[] collectedLetters = null;
 
-           
+
             foreach (var w in LetterManager.Instance.words)
             {
                 if (w.wordId == wordId)
@@ -50,28 +50,28 @@ public class CollectionDisplayUI : MonoBehaviour
                 }
             }
 
-            
+
             if (string.IsNullOrEmpty(fullWord) || collectedLetters == null)
             {
-                textComponent.text = "ERROR: ID no válido";
+                textComponent.text = "_ _ _ _";
                 continue;
             }
 
-           
+
             string displayString = "";
             for (int i = 0; i < fullWord.Length; i++)
             {
-               
-                if (i < collectedLetters.Length && collectedLetters[i])
-                    displayString += fullWord[i];   
-                else
-                    displayString += hiddenChar;    
 
-                displayString += Spacing;           
+                if (i < collectedLetters.Length && collectedLetters[i])
+                    displayString += fullWord[i];
+                else
+                    displayString += hiddenChar;
+
+                displayString += Spacing;
             }
 
-            
-            textComponent.text = displayString.TrimEnd(); 
+
+            textComponent.text = displayString.TrimEnd();
         }
     }
 }

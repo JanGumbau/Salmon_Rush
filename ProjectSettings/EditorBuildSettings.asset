@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Projecte/Scenes/Nivell_2.unity
     guid: ff17c7443b9882a49b9aaea33ed7fe27
+  - enabled: 1
+    path: Assets/Projecte/Scenes/Nivell_3.unity
+    guid: 255d86be27b7c01459796d9dbec6f18a
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3727f7502de3226468e97309629db1c0, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 4a8e0c78beabfd04098ac2bdf146f801, type: 2}
