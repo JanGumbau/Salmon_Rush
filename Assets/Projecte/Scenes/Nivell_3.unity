@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 116933378}
   - component: {fileID: 116933377}
   - component: {fileID: 116933376}
+  - component: {fileID: 116933381}
   m_Layer: 0
   m_Name: Oso3 (1)
   m_TagString: Enemigo
@@ -684,9 +685,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 9.2, y: 0.77500004, z: 0.7, w: 4.55}
+    pivot: {x: 0.8662634, y: 0.24313024}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -738,7 +739,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddcc0f5a3fdb2a14b90c6e9347ca7b48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -766,6 +767,19 @@ Transform:
   - {fileID: 271486592}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &116933381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116933375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &158081197
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +881,7 @@ GameObject:
   - component: {fileID: 163464219}
   - component: {fileID: 163464218}
   - component: {fileID: 163464217}
+  - component: {fileID: 163464223}
   m_Layer: 0
   m_Name: Aguila (2)
   m_TagString: Enemigo
@@ -1055,6 +1070,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &163464223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163464216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &178352178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1373,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.18157347, b: 0, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -1432,7 +1460,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -1457,6 +1485,7 @@ GameObject:
   - component: {fileID: 273045960}
   - component: {fileID: 273045959}
   - component: {fileID: 273045958}
+  - component: {fileID: 273045964}
   m_Layer: 0
   m_Name: Aguila1 (3)
   m_TagString: Enemigo
@@ -1645,6 +1674,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &273045964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273045957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &337627667
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1859,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 0
   spriteRenderer: {fileID: 345371094}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -5962198388926122564, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2079,7 +2121,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 0
   spriteRenderer: {fileID: 467836590}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -8478194216507768359, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2229,7 +2271,6 @@ GameObject:
   - component: {fileID: 522807301}
   - component: {fileID: 522807303}
   - component: {fileID: 522807302}
-  - component: {fileID: 522807304}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2253,8 +2294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013113, y: 229}
-  m_SizeDelta: {x: 382.567, y: 105.231}
+  m_AnchoredPosition: {x: 16.8824, y: 244}
+  m_SizeDelta: {x: 529.9045, y: 105.231}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &522807302
 MonoBehaviour:
@@ -2276,7 +2317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Pause
+  m_text: JOC EN PAUSA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2355,46 +2396,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522807300}
   m_CullTransparentMesh: 1
---- !u!114 &522807304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522807300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:0658d570aaffe0141bbda14a8b4a3648
-    m_TableEntryReference:
-      m_KeyId: 223303264669696
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  m_FormatArguments: []
-  m_UpdateString:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522807302}
-        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  references:
-    version: 2
-    RefIds: []
 --- !u!1 &527872616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,6 +2649,7 @@ GameObject:
   - component: {fileID: 546136657}
   - component: {fileID: 546136656}
   - component: {fileID: 546136660}
+  - component: {fileID: 546136661}
   m_Layer: 0
   m_Name: Oso
   m_TagString: Enemigo
@@ -2718,9 +2720,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 9.2, y: 0.77500004, z: 0.7, w: 4.55}
+    pivot: {x: 0.8662634, y: 0.24313024}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2772,7 +2774,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddcc0f5a3fdb2a14b90c6e9347ca7b48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2820,6 +2822,19 @@ MonoBehaviour:
   showOnlyWhenActive: 1
   hitboxColor: {r: 0.8584906, g: 0.1906087, b: 0.0040494935, a: 0.35}
   hitboxSortingOrder: 50
+--- !u!114 &546136661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546136655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &568103410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2849,7 @@ GameObject:
   - component: {fileID: 568103411}
   - component: {fileID: 568103415}
   - component: {fileID: 568103416}
+  - component: {fileID: 568103417}
   m_Layer: 0
   m_Name: Aguila1
   m_TagString: Enemigo
@@ -3022,6 +3038,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &568103417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568103410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &611807845
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,7 +3478,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 1
   spriteRenderer: {fileID: 627738353}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: 8988950123309387204, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3602,6 +3631,7 @@ GameObject:
   - component: {fileID: 633882555}
   - component: {fileID: 633882554}
   - component: {fileID: 633882553}
+  - component: {fileID: 633882559}
   m_Layer: 0
   m_Name: Aguila2 (1)
   m_TagString: Enemigo
@@ -3790,6 +3820,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633882559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633882552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &659677424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3869,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 4
   spriteRenderer: {fileID: 659677428}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -1401874176895988017, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4080,7 +4123,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 3
   spriteRenderer: {fileID: 727926195}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -5357453441090490021, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4413,7 +4456,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -4424,217 +4467,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!213 &811583057
-Sprite:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: OneUnitSquareRuntime
-  m_Rect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_Offset: {x: 0, y: 0}
-  m_Border: {x: 0, y: 0, z: 0, w: 0}
-  m_PixelsToUnits: 1
-  m_Pivot: {x: 0.5, y: 0.5}
-  m_Extrude: 0
-  m_IsPolygon: 0
-  m_AtlasName: 
-  m_PackingTag: 
-  m_RenderDataKey:
-    00000000000000000000000000000000: 0
-  m_AtlasTags: []
-  m_SpriteAtlas: {fileID: 0}
-  m_RD:
-    serializedVersion: 3
-    texture: {fileID: 2118778864}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 6
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 4
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 000001000200020001000300
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 4
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 1
-      height: 1
-    textureRectOffset: {x: 0, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 1, y: 0.5, z: 1, w: 0.5}
-    downscaleMultiplier: 1
-  m_AtlasRD:
-    serializedVersion: 3
-    texture: {fileID: 2118778864}
-    alphaTexture: {fileID: 0}
-    secondaryTextures: []
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 6
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 4
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 000001000200020001000300
-    m_VertexData:
-      serializedVersion: 3
-      m_VertexCount: 4
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    textureRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 1
-      height: 1
-    textureRectOffset: {x: 0, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 1, y: 0.5, z: 1, w: 0.5}
-    downscaleMultiplier: 1
-  m_PhysicsShape: []
-  m_Bones: []
-  m_ScriptableObjects: []
-  m_SpriteID: 
 --- !u!1 &815916663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4648,6 +4480,7 @@ GameObject:
   - component: {fileID: 815916666}
   - component: {fileID: 815916665}
   - component: {fileID: 815916664}
+  - component: {fileID: 815916669}
   m_Layer: 0
   m_Name: Oso4 (1)
   m_TagString: Enemigo
@@ -4738,9 +4571,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0.7, y: 0.77500004, z: 9.2, w: 4.55}
+    pivot: {x: 0.13709675, y: 0.24910396}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4792,7 +4625,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92d06f2fd373dc7438c881e4d517a9e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4820,6 +4653,19 @@ Transform:
   - {fileID: 2123732984}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &815916669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815916663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &827702576
 GameObject:
   m_ObjectHideFlags: 0
@@ -5194,8 +5040,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ade9ac7e1590a1c4ca790e8a8c4e424a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5256,6 +5102,7 @@ GameObject:
   - component: {fileID: 872997675}
   - component: {fileID: 872997674}
   - component: {fileID: 872997678}
+  - component: {fileID: 872997679}
   m_Layer: 0
   m_Name: Oso4
   m_TagString: Enemigo
@@ -5326,9 +5173,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0.7, y: 0.77500004, z: 9.2, w: 4.55}
+    pivot: {x: 0.13709675, y: 0.24910396}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5380,7 +5227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92d06f2fd373dc7438c881e4d517a9e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5428,6 +5275,19 @@ MonoBehaviour:
   showOnlyWhenActive: 1
   hitboxColor: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   hitboxSortingOrder: 50
+--- !u!114 &872997679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872997673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &905614489
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,7 +5437,7 @@ MonoBehaviour:
   wordId: RIUS_ID
   letterIndex: 2
   spriteRenderer: {fileID: 913292312}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -5423386022696304102, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5752,7 +5612,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 2
   spriteRenderer: {fileID: 919207529}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -1809877987737587854, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5986,6 +5846,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958311541}
   m_CullTransparentMesh: 1
+--- !u!28 &986915332
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 4
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 4
+  _typelessdata: ffffffff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &992410443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,7 +5903,6 @@ GameObject:
   - component: {fileID: 992410444}
   - component: {fileID: 992410446}
   - component: {fileID: 992410445}
-  - component: {fileID: 992410447}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -6044,7 +5949,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Retry
+  m_text: Reiniciar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6123,46 +6028,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992410443}
   m_CullTransparentMesh: 1
---- !u!114 &992410447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992410443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:0658d570aaffe0141bbda14a8b4a3648
-    m_TableEntryReference:
-      m_KeyId: 223449004150784
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  m_FormatArguments: []
-  m_UpdateString:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 992410445}
-        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  references:
-    version: 2
-    RefIds: []
 --- !u!1 &1069892979
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,6 +6365,7 @@ GameObject:
   - component: {fileID: 1114550252}
   - component: {fileID: 1114550251}
   - component: {fileID: 1114550250}
+  - component: {fileID: 1114550256}
   m_Layer: 0
   m_Name: Aguila1 (1)
   m_TagString: Enemigo
@@ -6688,6 +6554,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &1114550256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114550249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &1133846303
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,7 +6918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21176472, g: 0.5803922, b: 0.43529415, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7078,6 +6957,7 @@ GameObject:
   - component: {fileID: 1197855940}
   - component: {fileID: 1197855939}
   - component: {fileID: 1197855938}
+  - component: {fileID: 1197855944}
   m_Layer: 0
   m_Name: Aguila1 (2)
   m_TagString: Enemigo
@@ -7266,6 +7146,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &1197855944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197855937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &1245044314
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,7 +7235,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -7367,6 +7260,7 @@ GameObject:
   - component: {fileID: 1245609100}
   - component: {fileID: 1245609099}
   - component: {fileID: 1245609104}
+  - component: {fileID: 1245609105}
   m_Layer: 0
   m_Name: Aguila
   m_TagString: Enemigo
@@ -7555,6 +7449,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1245609105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245609098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &1247591551
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,6 +8068,7 @@ GameObject:
   - component: {fileID: 1382050018}
   - component: {fileID: 1382050017}
   - component: {fileID: 1382050016}
+  - component: {fileID: 1382050022}
   m_Layer: 0
   m_Name: Aguila (1)
   m_TagString: Enemigo
@@ -8349,6 +8257,230 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1382050022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382050015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
+--- !u!213 &1401483894
+Sprite:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OneUnitSquareRuntime
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5, y: 0.5}
+  m_Extrude: 0
+  m_IsPolygon: 0
+  m_AtlasName: 
+  m_PackingTag: 
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 3
+    texture: {fileID: 986915332}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 0.5, z: 1, w: 0.5}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 3
+    texture: {fileID: 986915332}
+    alphaTexture: {fileID: 0}
+    secondaryTextures: []
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 3
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 0.5, z: 1, w: 0.5}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_ScriptableObjects: []
+  m_SpriteID: 
 --- !u!1 &1412072809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8507,6 +8639,7 @@ GameObject:
   - component: {fileID: 1455686311}
   - component: {fileID: 1455686315}
   - component: {fileID: 1455686316}
+  - component: {fileID: 1455686317}
   m_Layer: 0
   m_Name: Aguila2
   m_TagString: Enemigo
@@ -8695,6 +8828,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1455686317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455686310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &1495100030
 GameObject:
   m_ObjectHideFlags: 0
@@ -8731,7 +8877,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 1
   spriteRenderer: {fileID: 1495100034}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -5962198388926122564, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -8946,7 +9092,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 0.8584906, g: 0.1906087, b: 0.0040494935, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -9033,7 +9179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0
@@ -9239,7 +9385,7 @@ MonoBehaviour:
   wordId: FRESA_ID
   letterIndex: 3
   spriteRenderer: {fileID: 1539624549}
-  uncollectedSprite: {fileID: -4332580991400689967, guid: 89ca60dbc8778c84aab4629135f37801, type: 3}
+  uncollectedSprite: {fileID: -5357453441090490021, guid: 7a38b916a4e4cea4b84baa4685b5a3db, type: 3}
   collectedSprite: {fileID: 0}
   collectedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   uncollectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9803,8 +9949,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c4e364f1664f9564ca47ea3760b17d6f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9834,6 +9980,7 @@ GameObject:
   - component: {fileID: 1715036765}
   - component: {fileID: 1715036764}
   - component: {fileID: 1715036768}
+  - component: {fileID: 1715036769}
   m_Layer: 0
   m_Name: Oso3
   m_TagString: Enemigo
@@ -9904,9 +10051,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 9.2, y: 0.77500004, z: 0.7, w: 4.55}
+    pivot: {x: 0.8662634, y: 0.24313024}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -9958,7 +10105,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddcc0f5a3fdb2a14b90c6e9347ca7b48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10006,6 +10153,19 @@ MonoBehaviour:
   showOnlyWhenActive: 1
   hitboxColor: {r: 1, g: 0.25152427, b: 0.042452812, a: 0.35}
   hitboxSortingOrder: 50
+--- !u!114 &1715036769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715036763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 0}
 --- !u!1 &1748201950
 GameObject:
   m_ObjectHideFlags: 0
@@ -10536,6 +10696,7 @@ GameObject:
   - component: {fileID: 1790668103}
   - component: {fileID: 1790668102}
   - component: {fileID: 1790668106}
+  - component: {fileID: 1790668107}
   m_Layer: 0
   m_Name: Oso2
   m_TagString: Enemigo
@@ -10606,9 +10767,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0.7, y: 0.77500004, z: 9.2, w: 4.55}
+    pivot: {x: 0.13709675, y: 0.24910396}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10660,7 +10821,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92d06f2fd373dc7438c881e4d517a9e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10708,6 +10869,19 @@ MonoBehaviour:
   showOnlyWhenActive: 1
   hitboxColor: {r: 1, g: 0.18157347, b: 0, a: 0.35}
   hitboxSortingOrder: 50
+--- !u!114 &1790668107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790668101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &1808166149
 GameObject:
   m_ObjectHideFlags: 0
@@ -10824,8 +10998,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c4e364f1664f9564ca47ea3760b17d6f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11013,8 +11187,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 307e0ff8abb182b4590ba9a67d6e7e68, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11282,8 +11456,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ade9ac7e1590a1c4ca790e8a8c4e424a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11925,6 +12099,7 @@ GameObject:
   - component: {fileID: 2074702769}
   - component: {fileID: 2074702768}
   - component: {fileID: 2074702767}
+  - component: {fileID: 2074702772}
   m_Layer: 0
   m_Name: Oso4 (2)
   m_TagString: Enemigo
@@ -12015,9 +12190,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    border: {x: 0.7, y: 0.77500004, z: 9.2, w: 4.55}
+    pivot: {x: 0.13709675, y: 0.24910396}
+    oldSize: {x: 12, y: 6.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12069,7 +12244,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92d06f2fd373dc7438c881e4d517a9e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12097,6 +12272,19 @@ Transform:
   - {fileID: 1501791600}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074702772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074702766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 4eadef1b17738a541b59aff67c0d8135, type: 3}
 --- !u!1 &2097099251
 GameObject:
   m_ObjectHideFlags: 0
@@ -12260,6 +12448,7 @@ GameObject:
   - component: {fileID: 2104131935}
   - component: {fileID: 2104131934}
   - component: {fileID: 2104131933}
+  - component: {fileID: 2104131939}
   m_Layer: 0
   m_Name: Aguila1 (4)
   m_TagString: Enemigo
@@ -12448,6 +12637,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &2104131939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104131932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19dc42030bb23634aa0c9470455e00ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearSoundClip: {fileID: 8300000, guid: 3ab5b9617d8395d4fbf38e9e7b8deec3, type: 3}
 --- !u!1 &2104995905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12584,52 +12786,6 @@ RectTransform:
   m_AnchoredPosition: {x: 827, y: 179}
   m_SizeDelta: {x: 170.38, y: 87.2375}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!28 &2118778864
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1
-  m_Height: 1
-  m_CompleteImageSize: 4
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 4
-  _typelessdata: ffffffff
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &2119349419
 GameObject:
   m_ObjectHideFlags: 0
@@ -12883,7 +13039,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 811583057}
+  m_Sprite: {fileID: 1401483894}
   m_Color: {r: 1, g: 0.22940181, b: 0.0141509175, a: 0.35}
   m_FlipX: 0
   m_FlipY: 0

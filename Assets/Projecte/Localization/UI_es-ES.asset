@@ -17,55 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 0658d570aaffe0141bbda14a8b4a3648, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 13816336384
-    m_Localized: "CONFIGURACI\xD3N"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17939337216
-    m_Localized: MUSICA
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21408026624
-    m_Localized: IDIOMA
-    m_Metadata:
-      m_Items: []
-  - m_Id: 23786196992
-    m_Localized: SALIR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 456583843840
-    m_Localized: CREDITOS
-    m_Metadata:
-      m_Items: []
-  - m_Id: 519112527872
-    m_Localized: JUGAR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223303264669696
-    m_Localized: Juego Pausado
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223449004150784
-    m_Localized: Reintentar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223600837955584
-    m_Localized: Siguiente Nivel
-    m_Metadata:
-      m_Items: []
-  - m_Id: 237181524545536
-    m_Localized: "Salm\xF3n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2255580273016832
-    m_Localized: MISIONES
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2767074275659776
-    m_Localized: HAS COMPLETADO EL NIVEL
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []
