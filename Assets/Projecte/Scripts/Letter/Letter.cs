@@ -72,7 +72,7 @@ public class Letter : MonoBehaviour
         if (animator != null) animator.SetTrigger("Collect");
         if (collectSfx != null) AudioSource.PlayClipAtPoint(collectSfx, Camera.main.transform.position);
 
-        LetterPopupUI.Instance?.ShowLetter(letterChar);
+        
 
         // Registrar la letra recogida en el sistema
         LetterManager.Instance?.RegisterCollectedLetter(wordId, letterIndex, letterChar);
