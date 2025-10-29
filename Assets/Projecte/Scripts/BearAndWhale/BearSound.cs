@@ -1,34 +1,59 @@
 using UnityEngine;
+using UnityEngine.Audio; // 1. ¡MUY IMPORTANTE! Necesitas esto para usar AudioMixerGroup
 
+// 2. Esto añade un AudioSource automáticamente si no lo tienes
+[RequireComponent(typeof(AudioSource))]
 public class BearSound : MonoBehaviour
 {
-    // 1. Arrastra tu clip de sonido aquí en el Inspector
+    // 3. Arrastra tu clip de sonido aquí
     public AudioClip bearSoundClip;
 
-    // 2. Control para que suene solo una vez (opcional)
+    // 4. ¡NUEVO! Arrastra tu AudioMixerGroup "SFX" aquí desde la ventana del Mixer
+    public AudioMixerGroup sfxMixerGroup;
+
+    // 5. Referencia al AudioSource que está en este mismo objeto
+    private AudioSource audioSource;
+
+    // Control para que suene solo una vez
     private bool hasPlayed = false;
 
-    // Esta función se llama cuando otro Collider2D entra en este trigger
+    // Usamos Awake() para configurar la referencia
+    void Awake()
+    {
+        // 6. Obtenemos el componente AudioSource de este GameObject
+        audioSource = GetComponent<AudioSource>();
+
+        // 7. ¡AQUÍ ESTÁ LA MAGIA! Asignamos el mixer group al AudioSource
+        if (sfxMixerGroup != null)
+        {
+            audioSource.outputAudioMixerGroup = sfxMixerGroup;
+        }
+        else
+        {
+            Debug.LogWarning("BearSound: ¡No se asignó ningún AudioMixerGroup (SFX)!", this);
+        }
+
+        // 8. Opcional: Nos aseguramos de que no suene al empezar la escena
+        audioSource.playOnAwake = false;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Si el sonido ya sonó, no hagas nada
         if (hasPlayed) return;
 
-        // Comprueba si el objeto que entró es el "Player" (usando su Tag)
         if (other.CompareTag("Player"))
         {
-            // Si es el Player y tenemos un sonido asignado
             if (bearSoundClip != null)
             {
-                // Toca el sonido en la posición de la cámara
-                AudioSource.PlayClipAtPoint(bearSoundClip, Camera.main.transform.position);
+                // 9. REEMPLAZO: En lugar de PlayClipAtPoint, usamos PlayOneShot
+                // Esto usará el AudioSource que ya hemos configurado con el mixer SFX
+                audioSource.PlayOneShot(bearSoundClip);
 
-                // Marcamos que ya sonó, para que no suene repetidamente
                 hasPlayed = true;
             }
             else
             {
-                Debug.LogWarning("BearSound: ¡No se asignó ningún bearSoundClip!");
+                Debug.LogWarning("BearSound: ¡No se asignó ningún bearSoundClip!", this);
             }
         }
     }
