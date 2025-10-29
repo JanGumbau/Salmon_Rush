@@ -1021,8 +1021,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CREDITS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7f53814cd65bc874ba018f7e5f6a6bf8, type: 2}
+  m_sharedMaterial: {fileID: 3740154232598473023, guid: 7f53814cd65bc874ba018f7e5f6a6bf8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1158,8 +1158,8 @@ MonoBehaviour:
   m_text: "Lead Developer: Jan Gumbau Zuil\n\nDeveloper: Nil Bosch Montalvo\n\nArtist
     and producer: Carles de Garriga Canela\n\nArtist: Adri\xE0 Anguera S\xE1nchez\n\n\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7f53814cd65bc874ba018f7e5f6a6bf8, type: 2}
+  m_sharedMaterial: {fileID: 3740154232598473023, guid: 7f53814cd65bc874ba018f7e5f6a6bf8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
