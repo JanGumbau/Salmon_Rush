@@ -17,55 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 0658d570aaffe0141bbda14a8b4a3648, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 13816336384
-    m_Localized: CONFIGURATION
-    m_Metadata:
-      m_Items: []
-  - m_Id: 17939337216
-    m_Localized: MUSIC
-    m_Metadata:
-      m_Items: []
-  - m_Id: 21408026624
-    m_Localized: LANGUAGE
-    m_Metadata:
-      m_Items: []
-  - m_Id: 23786196992
-    m_Localized: EXIT
-    m_Metadata:
-      m_Items: []
-  - m_Id: 456583843840
-    m_Localized: CREDITS
-    m_Metadata:
-      m_Items: []
-  - m_Id: 519112527872
-    m_Localized: PLAY
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223303264669696
-    m_Localized: Game Pause
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223449004150784
-    m_Localized: Retry
-    m_Metadata:
-      m_Items: []
-  - m_Id: 223600837955584
-    m_Localized: Next Level
-    m_Metadata:
-      m_Items: []
-  - m_Id: 237181524545536
-    m_Localized: Salmon
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2255580273016832
-    m_Localized: MISSIONS
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2767074275659776
-    m_Localized: YOU HAVE COMPLETED THE LEVEL
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []
